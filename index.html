@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array Methods</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];</h1>
+
+  <h2>FIND</h2>
+  <P>Devuelve el primer elemento de un array que cumple con una condición </P>
+  <p> const result = myArray.find(numero => numero > 5);</p>
+  <button onclick="find()">RESULTADO</button>
+
+  <h2>SOME</h2>
+  <P>Verifica si al menos un elemento del array cumple con la condición proporcionada.</P>
+  <p>const result = myArray.some(numero => numero > 2);</p>
+  <button onclick="some()">RESULTADO</button>
+  
+  <h2>EVERY</h2>
+  <p>Verifica si todos los elementos del array cumplen con la condición especificada</p>
+  <p>const result = myArray.every(numero => numero > 10);</p>
+  <button onclick="every()">RESULTADO</button>
+
+  <h2>INCLUDES</h2>
+  <p>Verifica si un array incluye un determinado valor y retorna true si lo encuentra, y false si no lo encuentra.</p>
+  <p>const result = myArray.includes(3);</p>
+  <button onclick="includes()">RESULTADO</button>
+
+  <h2>MAP</h2>
+  <p>Se utiliza para transformar cada elemento de un array.</p>
+  <p>const result = myArray.map(element => element * 10);</p>
+  <button onclick="map()">RESULTADO</button>
+
+  <h2>FILTER</h2>
+  <p>Se utiliza para crear un nuevo array con todos los elementos que pasan una prueba (función de filtro)</p>
+  <p>const result = myArray.filter(element => element > 5);</p>
+  <button onclick="filter()">RESULTADO</button>
+
+  <script src="app.js"></script>
+</body>
+</html>

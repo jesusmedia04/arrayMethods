@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 2em;
+    padding: 0;
+  }
+  h2 {
+    color: #2e86de;
+  }
+  button {
+    background-color: #2e86de; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 1px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  @media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 1em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    p {
+      font-size: 0.8em;
+    }
+    .button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
